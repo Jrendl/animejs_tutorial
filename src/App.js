@@ -3,6 +3,7 @@ import './App.css';
 import { FrogJumps } from './animations/FrogJumps'
 import ControlledDemo from './animations/ControlledDemo';
 
+
 function App() {
   return (
     <div className="App">
