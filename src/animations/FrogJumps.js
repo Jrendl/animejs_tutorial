@@ -1,7 +1,7 @@
 import ReactAnime from 'react-animejs'
 const {Anime, stagger} = ReactAnime
 
-export function FrogJumps() {
+export default function FrogJumps() {
     return (
         <Anime
             initial={[
