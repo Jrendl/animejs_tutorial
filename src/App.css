@@ -1,5 +1,18 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
 .App {
+  height: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .App-logo {
@@ -35,4 +48,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#header {
+  flex: 1,
+}
+#animationBox {
+  flex: 1,
 }
