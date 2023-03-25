@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactAnime from 'react-animejs';
+import ControlledDemo from './ControlledDemo';
+
 const {Anime, stagger} = ReactAnime;
+
 
 function App() {
   return (
@@ -41,7 +44,8 @@ function App() {
           }
         ]}
       > */}
-      <Anime
+      {/* <div id="Box" style={{ height: 50, width: 50, background: "#d3d" }} /> */}
+      {/* <Anime
         initial={[
           { //1st segment
             targets: ".tl_square",
@@ -60,10 +64,9 @@ function App() {
           <div className="tl_square" style={{ height: 50,  width:50, background:'#d3f454'}}  ></div>
           <div className="tl_circle" style={{ height: 50, width:50, background:'#d3f454', borderRadius: '50%'}}></div>
           <div className="tl_triangle" style={{height: 50,  width:50, background:'#d3f454', clipPath: 'polygon(50% 0, 0 100%, 100% 100%)'}}></div>
+      </Anime> */}
 
-        {/* <div id="Box" style={{ height: 50, width: 50, background: "#d3d" }} /> */}
-        {/* <Box /> */}
-      </Anime>
+      <ControlledDemo />
 
       
     </div>
