@@ -20,13 +20,6 @@ body {
   pointer-events: none;
 }
 
-.controls{
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

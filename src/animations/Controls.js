@@ -17,35 +17,30 @@ export default function Controls() {
 
     return(
         <div className="controls"> 
-
-            <FrogJumps
-                control={control}
-                setMeta={setMeta} // important to pull state of the player
-            />
-            <div
-                className="button"
+            <Anime
+                type="button"
                 onClick={() => {
                     setControl("play");
                 }}
             >
                 Play
-            </div>
-            <div
-                className="button"
+            </Anime>
+            <Anime
+                type="button"
                 onClick={() => {
                     setControl("pause");
                 }}
             >
                 Pause
-            </div>
-            <div
-                className="button"
-                _onClick={() => {
+            </Anime>
+            <Anime
+                type="button"
+                onClick={() => {
                     setControl("restart");
                 }}
             >
                 Restart
-            </div>
+            </Anime>
             <input
                 type="range"
                 min="1"
@@ -55,6 +50,11 @@ export default function Controls() {
                 id="myRange"
                 onChange={e => console.log(setControl(["seek", e.currentTarget.value]))}
             />
+            <FrogJumps
+                control={control}
+                setMeta={setMeta} // important to pull state of the player
+            />
+            
         </div>
        
     )

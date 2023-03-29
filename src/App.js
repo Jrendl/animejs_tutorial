@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import FrogJumps from './animations/FrogJump';
-// import Controls from './animations/Controls';
+// import FrogJumps from './animations/FrogJump';
+import Controls from './animations/Controls';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <h2 id='header'>Animations!</h2>
       <div id='animationBox'>
         <div>
-          <FrogJumps/>
+          <Controls/>
         </div>
       </div>
     </div>
