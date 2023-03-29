@@ -4,18 +4,36 @@ const {Anime, stagger } = ReactAnime;
 export default function FrogJumps(props) {
     return(
         <Anime
-            controls = {props.controls}
+            control = {props.control}
             setMeta = {props.setMeta}
             initial={[
                 {
                     targets: ".jumpingFrog",
-                    loop: true,
-                    duration: 1000,
-                    delay: stagger(100),
-                    rotate: stagger([-360,360]),
-                    easing: 'easeInOutQuad'
-
-                    
+                    translateX: 50,
+                    translateY: 50,
+                    scale: 1.25,
+                    delay: stagger(100)
+                },
+                {
+                    targets: ".jumpingFrog",
+                    translateX: 0,
+                    translateY: 0,
+                    scale: 1,
+                    delay: stagger(100)
+                },
+                {
+                    targets: ".jumpingFrog",
+                    translateX: -50,
+                    translateY: 50,
+                    scale: 1.25,
+                    delay: stagger(100)
+                },
+                {
+                    targets: ".jumpingFrog",
+                    translateX: 0,
+                    translateY: 0,
+                    scale: 1,
+                    delay: stagger(100)
                 }
             ]}
         >
