@@ -1,5 +1,5 @@
 import ReactAnime from "react-animejs";
-const {Anime} = ReactAnime;
+const {Anime, stagger } = ReactAnime;
 
 export default function FrogJumps(props) {
     return(
@@ -11,34 +11,19 @@ export default function FrogJumps(props) {
                     targets: ".jumpingFrog",
                     loop: true,
                     duration: 1000,
-                    easing: "linear",
+                    delay: stagger(100),
+                    rotate: stagger([-360,360]),
+                    easing: 'easeInOutQuad'
 
-                    keyframes: [
-                        {
-                            translateX: 50,
-                            translateY: 50,
-                            scale: 1.25
-                        },
-                        {
-                            translateX: 0,
-                            translateY: 0,
-                            scale: 1
-                        },
-                        {
-                            translateX: -50,
-                            translateY: 50,
-                            scale: 1.25
-                        },
-                        {
-                            translateX: 0,
-                            translateY: 0,
-                            scale: 1
-                        }
-                    ]
- 
+                    
                 }
             ]}
         >
+            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
+            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
+            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
+            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
+            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
             <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
         </Anime>
 
