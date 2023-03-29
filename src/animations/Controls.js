@@ -16,7 +16,7 @@ export default function Controls() {
     });
 
     return(
-        <div> 
+        <div className="controls"> 
 
             <FrogJumps
                 control={control}
