@@ -1,0 +1,10 @@
+<!-- http://www.w3.org/2000/svg is an XML namespace, first defined in the Scalable Vector Graphics (SVG) 1.0 Specification and subsequently added to by SVG 1.1, SVG 1.2 and SVG 2. The SVG namespace is mutable; names may be added over time by the W3C SVG Working Group by publication in W3C Technical Reports. -->
+<!-- tear drop from https://www.w3docs.com/snippets/html/how-to-create-a-teardrop-in-html.html -->
+
+<svg xmlns="http://www.w3.org/2000/svg"  viewbox="10 10 60 80" width="40" height="60"  class="drop" alt="raindrop">
+          <path fill="lightblue" stroke="blue" stroke-width=".5"
+            d="M15 3
+              Q16.5 6.8 25 18
+              A12.8 12.8 0 1 1 5 18
+              Q13.5 6.8 15 3z" />
+        </svg>
