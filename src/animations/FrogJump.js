@@ -2,6 +2,7 @@ import ReactAnime from "react-animejs";
 const {Anime, stagger } = ReactAnime;
 
 export default function FrogJumps(props) {
+    let tl = timeline
     return(
         <Anime
             control = {props.control}

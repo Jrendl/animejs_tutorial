@@ -1,4 +1,4 @@
-import ReactAnime from "react-animejs";
+ import ReactAnime from "react-animejs";
 import FrogJumps from "./FrogJump";
 import { useState } from "react";
 

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import FrogJumps from './animations/FrogJump';
 import Controls from './animations/Controls';
-
+import Stagger from './animations/Stagger';
 
 function App() {
   return (
@@ -10,11 +10,12 @@ function App() {
       <h2 id='header'>Animations!</h2>
       <div id='animationBox'>
         <div>
-          <Controls/>
+          <Stagger/>
+          
         </div>
       </div>
     </div>
   );
 }
-
+//<Stagger/>
 export default App;
