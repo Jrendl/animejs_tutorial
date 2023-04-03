@@ -20,41 +20,7 @@ export default function Stagger(props) {
             ]}
         >
             <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
-            <img className='jumpingFrog' width='200rem' src='frog.png' alt='frog'></img>
+            
 
         </Anime>
 
