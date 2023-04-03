@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import FrogJumps from './animations/FrogJump';
-import Controls from './animations/Controls';
+
+
 import Stagger from './animations/Stagger';
 
 function App() {

@@ -1,5 +1,5 @@
  import ReactAnime from "react-animejs";
-import FrogJumps from "./FrogJump";
+
 import { useState } from "react";
 
 const {Anime} = ReactAnime;
@@ -52,10 +52,7 @@ export default function Controls() {
                     onChange={e => console.log(setControl(["seek", e.currentTarget.value]))}
                 />
             </div>
-            <FrogJumps
-                control={control}
-                setMeta={setMeta} // important to pull state of the player
-            />
+            
         </div>
             
         
