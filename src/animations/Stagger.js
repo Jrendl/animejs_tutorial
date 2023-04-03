@@ -10,11 +10,7 @@ export default function Stagger(props) {
                     targets: ".jumpingFrog",
                     translateY:-200,
                     direction: 'alternate',
-                    scale: [
-                            {value: .1, easing: 'easeOutSine', duration: 500},
-                            {value: 1, easing: 'easeInOutQuad', duration: 1200}
-                          ],
-                          delay: stagger(200, {grid: [9, 4], from: 'center'})
+                    
                 },
                 
             ]}
@@ -41,4 +37,3 @@ export default function Stagger(props) {
 //     {value: 1, easing: 'easeInOutQuad', duration: 1200}
 //   ],
 //   delay: stagger(200, {grid: [9, 4], from: 'center'})
-//6 Timeline, activate animations when you want them by creating a timeline of events
