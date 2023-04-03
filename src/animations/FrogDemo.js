@@ -9,23 +9,12 @@ const Frog = ({children}) => {
 }
 
 
-
 export default function FrogDemo() {
-
-    let columns = Math.floor(document.body.clientWidth / 50),
-        rows = Math.floor(document.body.clientHeight / 50);
-    
-    const createTiles = index => {
-        const tile = document.createElement("div");
-        tile.classList.add("tile");
-        return tile;
-    }
-  
-    createTiles(6 * 6);
 
    return(
     <>
-        <div className="container" id="img0">
+           <div className="container" id="img0">
+               
                <Anime
                 
                 initial={[
@@ -33,7 +22,7 @@ export default function FrogDemo() {
                         targets: "#frog0",
                         translateY: '30vh',
                         duration: 600,
-                        loop: 40,
+                        loop: true,
                         direction: 'alternate',
 	                    easing: 'easeOutQuad',
                         scaleY: {
@@ -57,7 +46,7 @@ export default function FrogDemo() {
                    <div className="container" id="img2">
             <Anime 
                                 
-                initial={
+                _onClick={
                     [
                     {
                         targets: '#frog2',
@@ -68,7 +57,7 @@ export default function FrogDemo() {
                         ],
                         translateY: [
                             { value: 0, duration: 500 },
-                            { value: -400, duration: 1000, delay: 500 }
+                            { value: -200, duration: 1000, delay: 500 }
                         ],
 
                         scaleY: [
@@ -85,7 +74,7 @@ export default function FrogDemo() {
                             { value: 1, duration: 450 }
                         ],
                         easing: 'easeOutExpo(1, .8)',
-                        loop: true                    
+                        loop: 2                    
                     } 
                     ]
                 }>
@@ -165,21 +154,16 @@ export default function FrogDemo() {
 <div>
 <Anime 
             _onMouseEnter={[{
-                targets: '#Frog',
+                targets: '.frogComp',
                 translateY: 100,
+                loop: 4,
                 easing: 'spring',
                 delay:stagger(80)
             }]}
 
-            _onMouseLeave={[{
-                targets: '#Frog',
-                translateY: 0,
-                easing: 'spring',
-                delay:stagger(80)
-            }]}
-            >
-            <Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/>    
+    >
                </Anime>
+               <div className="frogComp"><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/><Frog/></div> 
                </div>
        </>
    )

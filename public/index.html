@@ -27,17 +27,30 @@
     <title>React-Animejs Techshare</title>
   </head>
   <body>
-    <header><img src="react-animejs-hero-demo.gif" height="200px"></header>
-    <div id="iframe-container">
-      <span>
-          <iframe class="iframe" src="https://react.dev/" height="450px"></iframe>
-          <i class="fa fa-plus" style="font-size:48px" color="black"></i>
-          <iframe class="iframe" src="https://animejs.com/" height="450px"></iframe>
-      </span>
-      </div>
+    <header></header>
+    <div class="iframe-container">
+      <div><iframe class="iframe-c1" id="top" src="https://animejs.com/"></iframe></div>
+      <div><iframe class="iframe-c2" id="letters" src="https://tobiasahlin.com/moving-letters/" scrolling="no"></iframe></div>
+    </div>
+ 
   
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+        <div class="combo">
+          <div>
+            <span>
+              <iframe class="iframe2" src="https://react.dev/" height="450px" scrolling="no"></iframe>
+              <i class="fa fa-plus" style="font-size:48px" color="black"></i>
+              <iframe class="iframe2" src="https://animejs.com/" height="450px" scrolling="no"></iframe>
+            </span>
+          </div>
+
+          <div id="react">
+            <img src="react-animejs-hero-demo.gif" height="250px">
+          </div>
+          <h1>For React 18 must use "npm install react-animejs --legacy-peer-deps"</h1>
+          </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

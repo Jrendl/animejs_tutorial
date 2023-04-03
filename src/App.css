@@ -1,6 +1,7 @@
 * {
-  background-color: #f4f8ec;
-  padding: 1%;
+  background-color: white;
+  padding: .5%;
+  border: none;
 }
 
 .App {
@@ -8,13 +9,26 @@
   padding-top: 2%;
 }
 
-header,
-#iframe-container {
-
+.combo {
+  padding: 1%;
   background-color: transparent;
   text-align: center;
+  padding-top: 20%;
 }
 
+#top {
+  padding-top: 20%;
+  background-color: transparent;
+  height: 800px;
+  width: 100%;
+}
+
+#letters {
+    padding-top: 20%;
+    background-color: transparent;
+    height: 850px;
+    width: 100%;
+  }
 
 .frogs {
   /* background-color: transparent; */
@@ -26,7 +40,8 @@ header,
 .container {
   /* border-style: solid; */
   border-color: black;
-  padding-top: 20%;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
 
 #img0 {
@@ -34,12 +49,6 @@ header,
   padding-bottom: 40%;
 }
 
-
-.iframe {
-  padding: .5%;
-  vertical-align: middle;
-  width: 40%;
-}
 
 #rodDemo {
   text-align: center;
@@ -93,5 +102,23 @@ header,
 #img2 {
   text-align: left;
   padding-bottom: 30%;
+}
+
+i {
+  vertical-align: middle;
+  text-align: center;
+  width: 40px;
+}
+
+#react {
+  padding-top: 5%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: 40px;
+  margin-top: -5%;
 }
 
